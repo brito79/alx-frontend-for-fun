@@ -520,7 +520,7 @@
     left: -1rem;
     color: #efeded;
     font-size: 10rem;
-    z-index: 2;
+    z-index: -1;
   }
 
   /*** ARTICLE PAGE ***/
