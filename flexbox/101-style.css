@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 70%;
+    align-items: center;
+}
+
+.box {
+    color: white;
+}
+
+.box1 {
+    background: rgb(8, 210, 8);
+    flex-basis: 5%;
+    font-size: 2rem;
+}
+
+.box2 {
+    background: rgb(18, 139, 214);
+    flex-basis: 15%;
+    font-size: 7rem;
+}
+
+.box3 {
+    background: rgb(13, 13, 234);
+    flex-basis: 30%;
+    font-size: 12rem;
+}
+
+.box4 {
+    background: rgb(234, 18, 234);
+    flex-basis: 15%;
+    font-size: 7rem;
+}
+
+.box5 {
+    background: rgb(235, 138, 19);
+    flex-basis: 5%;
+    font-size: 2rem;
+}
