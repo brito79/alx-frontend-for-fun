@@ -1,8 +1,19 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 """
-Markdown script using python.
+This is a script to convert a Markdown file to HTML.
+
+Usage:
+    ./markdown2html.py [input_file] [output_file]
+
+Arguments:
+    input_file: the name of the Markdown file to be converted
+    output_file: the name of the output HTML file
+
+Example:
+    ./markdown2html.py README.md README.html
 """
+
 import sys
 import os.path
 import re
